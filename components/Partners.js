@@ -11,39 +11,14 @@ export default function Partners() {
             <img
               className="max-h-12"
               src="/images/clearone.jpeg"
-              alt="Workcation"
+              alt="Clearco"
             />
           </div>
           <div className="col-span-1 flex justify-center bg-white-50 py-8 px-8">
-            <img className="max-h-12" src="/images/capp.png" alt="Mirage" />
+            <img className="max-h-12" src="/images/capp.png" alt="Capchase" />
           </div>
           <div className="col-span-1 flex justify-center bg-white-50 py-8 px-8">
-            <img
-              className="max-h-12"
-              src="https://tailwindui.com/img/logos/tuple-logo-white-400.svg"
-              alt="Tuple"
-            />
-          </div>
-          <div className="col-span-1 flex justify-center bg-white-50 py-8 px-8">
-            <img
-              className="max-h-12"
-              src="https://tailwindui.com/img/logos/laravel-logo-white-400.svg"
-              alt="Laravel"
-            />
-          </div>
-          <div className="col-span-1 flex justify-center bg-white-50 py-8 px-8">
-            <img
-              className="max-h-12"
-              src="https://tailwindui.com/img/logos/statickit-logo-white-400.svg"
-              alt="StaticKit"
-            />
-          </div>
-          <div className="col-span-1 flex justify-center bg-white-50 py-8 px-8">
-            <img
-              className="max-h-12"
-              src="https://tailwindui.com/img/logos/statamic-logo-white-400.svg"
-              alt="Statamic"
-            />
+            <img className="max-h-12" src="/images/stripe.png" alt="Stripe" />
           </div>
         </div>
       </div>

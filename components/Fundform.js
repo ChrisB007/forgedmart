@@ -32,16 +32,16 @@ export default function Funding() {
               </div>
               <div>
                 <label htmlFor="password" className="sr-only">
-                  Password
+                  Name
                 </label>
                 <input
-                  id="password"
-                  name="password"
-                  type="password"
-                  autoComplete="current-password"
+                  id="name"
+                  name="name"
+                  type="text"
+                  autoComplete="name"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
-                  placeholder="Password"
+                  placeholder="Full Name"
                 />
               </div>
             </div>
