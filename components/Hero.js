@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { ChevronRightIcon } from '@heroicons/react/20/solid';
 
 const navigation = [
-  { name: 'Products', href: '#' },
+  { name: 'Services', href: '#' },
   { name: 'Features', href: '#' },
   { name: 'Contact', href: '#' },
 ];
@@ -160,8 +160,8 @@ export default function Example() {
                     Helping eCommerce companies attain Unicorn status.
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    Not too many businesses built on eCommerce platforms get to
-                    be Billion dollar companies. Question is - Why not?
+                    Not many businesses built on eCommerce platforms get to be
+                    Billion dollar companies. Question is - Why not?
                   </p>
                   <p className="mt-8 text-base font-semibold text-white sm:mt-10">
                     Serving Companies built on

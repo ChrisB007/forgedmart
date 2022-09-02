@@ -12,21 +12,21 @@ const transferFeatures = [
     id: 1,
     name: 'Funding & Growth',
     description:
-      'In order to facilitate growth you need capital. This is optional but recommended if you are planning to scale your business and running low on funds or not enough capital after expenses are taken care of. We can provide funding and resources for you to grow faster.',
+      'In order to facilitate growth, you need capital. This is optional but recommended if you are planning to scale your business and running low on funds or do not have enough capital after expenses are taken care of. We can provide funding and resources for you to grow faster.',
     icon: GlobeAltIcon,
   },
   {
     id: 2,
     name: 'Branding & Marketing',
     description:
-      'Selling your own products with your company name and logo is a key factor when it comes to branding. If you are not currently selling your own brand product we work with an array of product designers and manufacturers that can help bring your ideas to live as well as a winning go-to-market strategy.',
+      'Selling your own products with your company name and logo is a key factor when it comes to branding. If you are not currently selling your own brand product we work with an array of product designers and manufacturers that can help bring your ideas to life as well as a winning go-to-market strategy.',
     icon: ScaleIcon,
   },
   {
     id: 3,
     name: 'Exit Strategy',
     description:
-      'At this point your company has a track record of successfully operating over some time, and you are now ready to reap the benefits of your hard work either to be acquired by a bigger company or make offerings to go public',
+      'At this point, your company has a track record of successfully operating over some time, and you are now ready to reap the benefits of your hard work either to be acquired by a bigger company or make offerings to go public.',
     icon: BoltIcon,
   },
 ];
@@ -42,21 +42,21 @@ const communicationFeatures = [
     id: 2,
     name: 'Access to Funding',
     description:
-      'Let\'s start by saying that this is not a loan. However it is a "recommended" revenue-based financing that you can choose (if needed) to access. Your company will have revolving access to funds for you to grow faster afterall the faster you grows, the sooner you attain unicorn status',
+      'Let\'s start by saying that this is not a loan. However, it is a "recommended" revenue-based financing that you can choose (if needed) to access. Your company will have revolving access to funds for you to grow faster after all the faster you grow, the sooner you attain unicorn status',
     icon: EnvelopeIcon,
   },
   {
     id: 2,
     name: 'Dedicated Branding & Marketing team',
     description:
-      'Our team will propose branding ideas, help improve your marketing performance on the web as well as parallel your social media effort so that you can acquire more customers and increase profitability.',
+      'Our team will propose branding ideas, help improve your marketing performance on the web as well as parallel your social media effort so that you can acquire more customers and increase profitability',
     icon: EnvelopeIcon,
   },
   {
     id: 2,
     name: 'Exit Strategy Advisor',
     description:
-      'As exciting it sounds to run your company forever, most entrepreneurs plan on retiring at some point and exiting the company. You need an expert to advise you on when is right to exit, how exit strategy help your business valuation, types of exit strategies, which strategy is best for your company e.t.c.  ',
+      'As exciting as it sounds to run your company forever, most entrepreneurs plan on retiring at some point and exiting the company. You need an expert to advise you on when is right to exit, how exit strategy helps your business valuation, types of exit strategies, which strategy is best for your company e.t.c.',
     icon: EnvelopeIcon,
   },
 ];
@@ -105,8 +105,8 @@ export default function Services() {
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-center text-xl text-gray-500">
             From growth funding to brand building strategies, brand marketing to
-            investors relations strategies, we provide practical value that
-            accelerate growth for eCommerce businesses.
+            investor relations strategies, we provide practical value that
+            accelerates growth for eCommerce businesses.
           </p>
         </div>
 
