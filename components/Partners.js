@@ -15,11 +15,7 @@ export default function Partners() {
             />
           </div>
           <div className="col-span-1 flex justify-center bg-white-50 py-8 px-8">
-            <img
-              className="max-h-12"
-              src="https://tailwindui.com/img/logos/mirage-logo-white-400.svg"
-              alt="Mirage"
-            />
+            <img className="max-h-12" src="/images/capp.png" alt="Mirage" />
           </div>
           <div className="col-span-1 flex justify-center bg-white-50 py-8 px-8">
             <img
