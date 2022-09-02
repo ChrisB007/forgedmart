@@ -164,7 +164,7 @@ export default function Example() {
                     Billion dollar companies. Question is - Why not?
                   </p>
                   <p className="mt-8 text-base font-semibold text-white sm:mt-10">
-                    Serving Companies built on
+                    Serving businesses built on
                   </p>
                   <div className="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                     <div className="flex flex-wrap items-start justify-between">

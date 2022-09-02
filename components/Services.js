@@ -12,7 +12,7 @@ const transferFeatures = [
     id: 1,
     name: 'Funding & Growth',
     description:
-      'In order to facilitate growth, you need capital. This is optional but recommended if you are planning to scale your business and running low on funds or do not have enough capital after expenses are taken care of. We can provide funding and resources for you to grow faster.',
+      'In order to facilitate growth, you need capital. This is optional but recommended if you are planning to scale your business but running low on funds or do not have enough capital after expenses are taken care of. We can provide funding and resources for you to grow faster.',
     icon: GlobeAltIcon,
   },
   {
@@ -35,7 +35,7 @@ const communicationFeatures = [
     id: 1,
     name: 'Dedicated Team',
     description:
-      'Your company with be assigned an Account Manager to oversee your growth along with dedicated experts in marketing and branding. Your Account Manager will put together a road map with an executable plan to succeed',
+      'Your company will be assigned an Account Manager to oversee your growth along with dedicated experts in marketing and branding. Your Account Manager will put together a road map with an executable plan to succeed.',
     icon: ChatBubbleBottomCenterTextIcon,
   },
   {
@@ -220,7 +220,7 @@ export default function Services() {
                 What to Expect
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Below are some of the services you are guarantee to expect from
+                Below are some of the services you are guaranteed to expect from
                 us.
               </p>
 
