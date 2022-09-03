@@ -46,7 +46,7 @@ export default function Example() {
               <div className="px-4 sm:px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
                 <div>
                   <a
-                    href="#"
+                    href="/#how-it-works"
                     className="inline-flex items-center rounded-full bg-gray-900 p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
                   >
                     <span className="rounded-full bg-red-500 px-3 py-0.5 text-sm font-semibold leading-5 text-white">

@@ -3,8 +3,8 @@ import { Popover, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
-  { name: 'Services', href: '#' },
-  { name: 'Features', href: '#' },
+  { name: 'Solutions', href: '/solutions' },
+  { name: 'How it works', href: '/#how-it-works' },
   { name: 'Contact', href: '/contact' },
 ];
 
@@ -18,12 +18,12 @@ const Nav = () => {
         >
           <div className="flex flex-1 items-center">
             <div className="flex w-full items-center justify-between md:w-auto">
-              <a href="#">
+              <a href="/">
                 <span className="sr-only">Workflow</span>
                 <img
                   className="h-8 w-auto sm:h-10"
                   src="/images/Mart.png"
-                  alt=""
+                  alt="logo"
                 />
               </a>
               <div className="-mr-2 flex items-center md:hidden">
@@ -71,11 +71,14 @@ const Nav = () => {
             <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
               <div className="flex items-center justify-between px-5 pt-4">
                 <div>
-                  <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark.svg?color=red&shade=600"
-                    alt=""
-                  />
+                  <a href="/">
+                    <span className="sr-only">Workflow</span>
+                    <img
+                      className="h-8 w-auto sm:h-10"
+                      src="/images/Mart.png"
+                      alt="logo"
+                    />
+                  </a>
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500">

@@ -110,7 +110,10 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
+        <div
+          id="how-it-works"
+          className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8"
+        >
           <div className="relative">
             <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
               How it works
