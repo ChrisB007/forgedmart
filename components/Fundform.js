@@ -10,7 +10,7 @@ export default function Funding() {
         <div className="w-full max-w-md space-y-8">
           <div>
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              See if you are eligible for funding
+              Establish an account
             </h2>
           </div>
           <form className="mt-8 space-y-6" action="#" method="POST">
@@ -27,7 +27,7 @@ export default function Funding() {
                   autoComplete="email"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
-                  placeholder="Email address"
+                  placeholder="Enter your email address"
                 />
               </div>
               <div>
@@ -41,11 +41,69 @@ export default function Funding() {
                   autoComplete="name"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
-                  placeholder="Full Name"
+                  placeholder="Enter your Full Name"
                 />
               </div>
+              <div>
+                <label htmlFor="password" className="sr-only">
+                  Name
+                </label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  autoComplete="name"
+                  required
+                  className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
+                  placeholder="Enter your website"
+                />
+              </div>
+              <div>
+                <label htmlFor="password" className="sr-only">
+                  Name
+                </label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  autoComplete="name"
+                  required
+                  className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
+                  placeholder="What is your monthly revenue (In numbers)"
+                />
+              </div>
+              <div>
+                <label htmlFor="password" className="sr-only">
+                  Name
+                </label>
+                <input
+                  id="name"
+                  name="name"
+                  type="number"
+                  autoComplete="name"
+                  required
+                  className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
+                  placeholder="How long (In months)"
+                />
+              </div>
+              <div>
+                <input
+                  id="name"
+                  name="name"
+                  type="file"
+                  autoComplete="name"
+                  required
+                  className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
+                  placeholder="Select a file"
+                />
+                <label
+                  htmlFor="file-upload"
+                  className="text-sm flex justify-center"
+                >
+                  Upload your Revenue Report for the time stated above
+                </label>
+              </div>
             </div>
-
             <div>
               <button
                 type="submit"

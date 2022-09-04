@@ -47,7 +47,7 @@ const Nav = () => {
           </div>
           <div className="hidden md:flex">
             <a
-              href="#"
+              href="/login"
               className="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700"
             >
               Partners Login
