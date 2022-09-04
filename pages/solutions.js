@@ -82,50 +82,59 @@ export default function Example() {
             <div className="mx-auto max-w-prose text-base lg:max-w-none">
               <p className="text-lg text-gray-500">
                 We invest various resources in helping eCommerce businesses
-                scale and increase ROI through funding, brand marketing, and
-                eventually providing an exit strategy.
+                partners scale and increase ROI through funding, brand
+                marketing, and eventually providing an exit strategy.
               </p>
             </div>
             <div className="prose prose-indigo mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
               <div className="mb-3">
                 <h2 className="text-lg font-bold ">Capital</h2>
                 <p>
-                  Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique
-                  sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum
-                  et et et sit. Faucibus sed non gravida lectus dignissim
-                  imperdiet a.
+                  With the right products/services, management teams and
+                  customers - any company can be achieve unicorn status. We
+                  along with our financial partners provide suites of financial
+                  products to help fund growth for our eCommerce partners.
                 </p>
-                <ul role="list">
-                  <li>Quis elit egestas venenatis mattis dignissim.</li>
-                  <li>
-                    Cras cras lobortis vitae vivamus ultricies facilisis tempus.
-                  </li>
-                  <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+                <ul role="list" className="font-bold list-disc m-4">
+                  <li>Equity-free. Bias-free. Hassle-free funding</li>
+                  <li>This is NOT a loan</li>
+                  <li>Repayment based on generated sales/revenue.</li>
                 </ul>
               </div>
               <div className="mb-3">
-                <h2 className="text-lg font-bold ">Brand Marketing</h2>
+                <h2 className="text-lg font-bold ">
+                  Brand Building & Marketing
+                </h2>
                 <p>
-                  Rhoncus nisl, libero egestas diam fermentum dui. At quis
-                  tincidunt vel ultricies. Vulputate aliquet velit faucibus
-                  semper. Pellentesque in venenatis vestibulum consectetur nibh
-                  id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi
-                  enim fermentum lacus in. Viverra.
+                  Once growth financing is secured we work closely with our
+                  eCommerce partners parallel to their on-going effort to
+                  address the following
                 </p>
+                <ul role="list" className="font-bold list-disc m-4">
+                  <li>Establishing Brand Identity</li>
+                  <li>Solidifying your business as a Brand</li>
+                  <li>Addressing Brand Equity/Value</li>
+                  <li>Strategic Communication</li>
+                  <li>Reputation Building</li>
+                  <li>Content Marketing</li>
+                  <li>Email Marketing</li>
+                  <li>Social Media Marketing</li>
+                </ul>
               </div>
-              <h3 className="text-lg font-bold ">Exit Strategy</h3>
+              <h2 className="text-lg font-bold ">Exit Strategy</h2>
               <p>
-                Tincidunt integer commodo, cursus etiam aliquam neque, et.
-                Consectetur pretium in volutpat, diam. Montes, magna cursus
-                nulla feugiat dignissim id lobortis amet. Laoreet sem est
-                phasellus eu proin massa, lectus. Diam rutrum posuere donec
-                ultricies non morbi. Mi a platea auctor mi.
+                Transferring ownership of your company to a third party when you
+                are ready to let go can be a daunting task - This is how you get
+                a return on the hard work invested in the business. Common exit
+                strategies include being acquired by another company, the sale
+                of equity or going public with a SPAC, it’s never too early to
+                plan ahead.
               </p>
-              <p>
-                Sagittis scelerisque nulla cursus in enim consectetur quam.
-                Dictum urna sed consectetur neque tristique pellentesque.
-                Blandit amet, sed aenean erat arcu morbi.
-              </p>
+              <ul role="list" className="font-bold list-disc m-4">
+                <li>We identify the right time for your exit strategy</li>
+                <li>We assign dedicated Exit Strategy Advisor</li>
+                <li>Exit via IPO, SPAC, Private sale.</li>
+              </ul>
             </div>
           </div>
         </div>

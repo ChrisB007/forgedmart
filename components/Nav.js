@@ -10,7 +10,7 @@ const navigation = [
 
 const Nav = () => {
   return (
-    <div className="relative pt-6 pb-16 sm:pb-24 bg-black">
+    <div className="relative pt-4 pb-16 sm:pb-24 h-0.5 bg-black">
       <Popover>
         <nav
           className="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6"

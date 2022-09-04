@@ -40,7 +40,7 @@ export default function Example() {
         </svg>
       </div>
       <div className="relative pt-6 pb-16 sm:pb-24">
-        <main className="mt-16 sm:mt-24">
+        <main className="hero-top mt-16 sm:mt-24">
           <div className="mx-auto max-w-7xl">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="px-4 sm:px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
