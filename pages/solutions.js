@@ -81,7 +81,7 @@ export default function Example() {
           <div className="mt-8 lg:mt-0">
             <div className="mx-auto max-w-prose text-base lg:max-w-none">
               <p className="text-lg text-gray-500">
-                We invest various resources in helping eCommerce businesses
+                We invest various resources in helping eCommerce business
                 partners scale and increase ROI through funding, brand
                 marketing, and eventually providing an exit strategy.
               </p>
@@ -90,9 +90,9 @@ export default function Example() {
               <div className="mb-3">
                 <h2 className="text-lg font-bold ">Capital</h2>
                 <p>
-                  With the right products/services, management teams and
-                  customers - any company can be achieve unicorn status. We
-                  along with our financial partners provide suites of financial
+                  With the right products/services, management teams, and
+                  customers - any company can achieve unicorn status. We along
+                  with our financial partners provide suites of financial
                   products to help fund growth for our eCommerce partners.
                 </p>
                 <ul role="list" className="font-bold list-disc m-4">
@@ -107,8 +107,8 @@ export default function Example() {
                 </h2>
                 <p>
                   Once growth financing is secured we work closely with our
-                  eCommerce partners parallel to their on-going effort to
-                  address the following
+                  eCommerce partners in parallel to their ongoing effort to
+                  address the following.
                 </p>
                 <ul role="list" className="font-bold list-disc m-4">
                   <li>Establishing Brand Identity</li>
