@@ -1,4 +1,5 @@
 import { ChevronRightIcon } from '@heroicons/react/20/solid';
+import Link from 'next/link';
 
 const navigation = [
   { name: 'Services', href: '#' },
@@ -45,19 +46,18 @@ export default function Example() {
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="px-4 sm:px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
                 <div>
-                  <a
-                    href="/#how-it-works"
-                    className="inline-flex items-center rounded-full bg-gray-900 p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
-                  >
-                    <span className="rounded-full bg-red-500 px-3 py-0.5 text-sm font-semibold leading-5 text-white">
-                      Check
-                    </span>
-                    <span className="ml-4 text-sm">Your eligibility</span>
-                    <ChevronRightIcon
-                      className="ml-2 h-5 w-5 text-gray-500"
-                      aria-hidden="true"
-                    />
-                  </a>
+                  <Link href="/#how-it-works">
+                    <a className="inline-flex items-center rounded-full bg-gray-900 p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base">
+                      <span className="rounded-full bg-red-500 px-3 py-0.5 text-sm font-semibold leading-5 text-white">
+                        Check
+                      </span>
+                      <span className="ml-4 text-sm">Your eligibility</span>
+                      <ChevronRightIcon
+                        className="ml-2 h-5 w-5 text-gray-500"
+                        aria-hidden="true"
+                      />
+                    </a>
+                  </Link>
                   <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
                     Helping eCommerce companies attain Unicorn status.
                   </h1>

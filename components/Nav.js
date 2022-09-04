@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 
 const navigation = [
   { name: 'Solutions', href: '/solutions' },
@@ -18,7 +19,8 @@ const Nav = () => {
         >
           <div className="flex flex-1 items-center">
             <div className="flex w-full items-center justify-between md:w-auto">
-              <a href="/">
+              <Link href="/"></Link>
+              <a>
                 <span className="sr-only">Workflow</span>
                 <img
                   className="h-8 w-auto sm:h-10"
@@ -46,12 +48,11 @@ const Nav = () => {
             </div>
           </div>
           <div className="hidden md:flex">
-            <a
-              href="/login"
-              className="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700"
-            >
-              Partners Login
-            </a>
+            <Link href="/login">
+              <a className="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700">
+                Partners Login
+              </a>
+            </Link>
           </div>
         </nav>
 
@@ -71,14 +72,16 @@ const Nav = () => {
             <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
               <div className="flex items-center justify-between px-5 pt-4">
                 <div>
-                  <a href="/">
-                    <span className="sr-only">Workflow</span>
-                    <img
-                      className="h-8 w-auto sm:h-10"
-                      src="/images/Mart.png"
-                      alt="logo"
-                    />
-                  </a>
+                  <Link href="/">
+                    <a>
+                      <span className="sr-only">Workflow</span>
+                      <img
+                        className="h-8 w-auto sm:h-10"
+                        src="/images/Mart.png"
+                        alt="logo"
+                      />
+                    </a>
+                  </Link>
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500">
@@ -98,10 +101,8 @@ const Nav = () => {
                   </a>
                 ))}
               </div>
-              <a
-                href="#"
-                className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-red-600 hover:bg-gray-100"
-              >
+              <Link href="#"></Link>
+              <a className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-red-600 hover:bg-gray-100">
                 Partners Login
               </a>
             </div>
