@@ -1,30 +1,7 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
+import Link from 'next/link';
 export default function Example() {
   return (
     <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-white">
-        <body class="h-full">
-        ```
-      */}
       <div className="flex min-h-full">
         <div className="flex flex-1 flex-col justify-center py-12 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
           <div className="mx-auto w-full max-w-sm lg:w-96">
@@ -33,12 +10,11 @@ export default function Example() {
                 Sign in to your account
               </h2>
               <p className="mt-2 text-sm text-gray-600">
-                <a
-                  href="/#how-it-works"
-                  className="font-medium text-red-600 hover:text-red-500"
-                >
-                  Click here to setup an account
-                </a>
+                <Link href="/#how-it-works">
+                  <a className="font-medium text-red-600 hover:text-red-500">
+                    Click here to setup an account
+                  </a>
+                </Link>
               </p>
             </div>
 
