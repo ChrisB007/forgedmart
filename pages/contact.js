@@ -1,4 +1,5 @@
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 
 export default function Example() {
   return (
@@ -50,7 +51,6 @@ export default function Example() {
                 <a className="font-medium text-gray-700 underline">
                   View all job openings
                 </a>
-                .
               </Link>
             </p>
           </div>
