@@ -13,15 +13,14 @@ export default function Example() {
               Get in touch
             </h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat
-              massa dictumst amet. Sapien tortor lacus arcu.
+              Hiya! Thanks for communicating. Please let us know what's on your
+              mind.
             </p>
             <dl className="mt-8 text-base text-gray-500">
               <div>
                 <dt className="sr-only">Postal address</dt>
                 <dd>
-                  <p>742 Evergreen Terrace</p>
-                  <p>Springfield, OR 12345</p>
+                  <p>New York, NY</p>
                 </dd>
               </div>
               <div className="mt-6">
@@ -31,7 +30,7 @@ export default function Example() {
                     className="h-6 w-6 flex-shrink-0 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">+1 (555) 123-4567</span>
+                  <span className="ml-3">+1 (475) 221 - 4685</span>
                 </dd>
               </div>
               <div className="mt-3">
@@ -41,16 +40,18 @@ export default function Example() {
                     className="h-6 w-6 flex-shrink-0 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">support@example.com</span>
+                  <span className="ml-3">info@publictrades.com</span>
                 </dd>
               </div>
             </dl>
             <p className="mt-6 text-base text-gray-500">
               Looking for careers?{' '}
-              <a href="#" className="font-medium text-gray-700 underline">
-                View all job openings
-              </a>
-              .
+              <Link href="#">
+                <a className="font-medium text-gray-700 underline">
+                  View all job openings
+                </a>
+                .
+              </Link>
             </p>
           </div>
         </div>
