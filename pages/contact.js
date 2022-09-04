@@ -14,8 +14,8 @@ export default function Example() {
               Get in touch
             </h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              Hiya! Thanks for communicating. Please let us know what's on your
-              mind.
+              Hiya! Thanks for communicating. Please let us know what&apos;s on
+              your mind.
             </p>
             <dl className="mt-8 text-base text-gray-500">
               <div>
