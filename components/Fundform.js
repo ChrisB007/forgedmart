@@ -115,7 +115,7 @@ export default function Funding() {
                     aria-hidden="true"
                   />
                 </span>
-                Check now
+                Start Now
               </button>
             </div>
           </form>
