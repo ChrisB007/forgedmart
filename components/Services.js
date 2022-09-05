@@ -26,7 +26,7 @@ const transferFeatures = [
     id: 3,
     name: 'Exit Strategy',
     description:
-      'At this point, your company has a track record of successfully operating over some time, and you are now ready to reap the benefits of your hard work either to be acquired by a bigger company or make offerings to go public.',
+      'At this point, your company has a track record of successfully operating over some time, and you are now ready to reap the benefits of your hard work either to be acquired by a bigger company or make offerings to go public. Our advisors will come up with multiple strategic plans and options to help you succeed.',
     icon: BoltIcon,
   },
 ];
