@@ -49,10 +49,10 @@ export default function Funding() {
                   Name
                 </label>
                 <input
-                  id="name"
-                  name="name"
+                  id="website"
+                  name="website"
                   type="text"
-                  autoComplete="name"
+                  autoComplete="website"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Enter your website"
@@ -63,10 +63,10 @@ export default function Funding() {
                   Name
                 </label>
                 <input
-                  id="name"
-                  name="name"
+                  id="revenue"
+                  name="revenue"
                   type="text"
-                  autoComplete="name"
+                  autoComplete="revenue"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="What is your monthly revenue (In numbers)"
@@ -77,10 +77,10 @@ export default function Funding() {
                   Name
                 </label>
                 <input
-                  id="name"
-                  name="name"
+                  id="month"
+                  name="month"
                   type="number"
-                  autoComplete="name"
+                  autoComplete="month"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="How long (In months)"
@@ -88,8 +88,8 @@ export default function Funding() {
               </div>
               <div>
                 <input
-                  id="name"
-                  name="name"
+                  id="file"
+                  name="file-name"
                   type="file"
                   autoComplete="name"
                   required
