@@ -102,10 +102,11 @@ const Nav = () => {
                   </a>
                 ))}
               </div>
-              <Link href="#"></Link>
-              <a className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-red-600 hover:bg-gray-100">
-                Partners Login
-              </a>
+              <Link href="/login">
+                <a className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-red-600 hover:bg-gray-100">
+                  Partners Login
+                </a>
+              </Link>
             </div>
           </Popover.Panel>
         </Transition>

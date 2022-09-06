@@ -284,7 +284,7 @@ export default function Services() {
                 className="relative mx-auto rounded-md"
                 width={490}
                 src="/images/exit.jpg"
-                alt=""
+                alt="exit-image"
               />
             </div>
           </div>
