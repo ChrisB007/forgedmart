@@ -79,9 +79,10 @@ export default function Example() {
                   products to help fund growth for our eCommerce partners.
                 </p>
                 <ul role="list" className="font-bold list-disc m-4">
-                  <li>Equity-free. Bias-free. Hassle-free funding</li>
-                  <li>This is NOT a loan</li>
+                  <li>Equity-free. Bias-free. Hassle-free funding.</li>
+                  <li>This is NOT a loan.</li>
                   <li>Repayment based on generated sales/revenue.</li>
+                  <li>No out-of-pocket cost to you.</li>
                 </ul>
               </div>
               <div className="mb-3">
@@ -102,6 +103,7 @@ export default function Example() {
                   <li>Content Marketing</li>
                   <li>Email Marketing</li>
                   <li>Social Media Marketing</li>
+                  <li>social media management</li>
                 </ul>
               </div>
               <h2 className="text-lg font-bold ">Exit Strategy</h2>

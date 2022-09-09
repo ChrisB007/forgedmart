@@ -1,100 +1,168 @@
+import { useReducer, useState } from 'react';
+import { useRouter } from 'next/router';
 import { LockClosedIcon } from '@heroicons/react/20/solid';
+import Link from 'next/link';
+
+const reducer = (state, action) => {
+  //This function takes in a default state, and dispatches an action on it
+};
 
 export default function Funding() {
+  const router = useRouter();
+  const [userData, setUserData] = useState({
+    email: '',
+    full_name: '',
+    revenue: '',
+    website: '',
+    duration: 0,
+    file_name: '',
+  });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const baseUrl = `${process.env.NEXT_PUBLIC_STRAPI_BASE_URL}/api/prospects`;
+      //const response = await fetch(baseUrl, {
+      //  method: 'POST',
+
+      //  headers: {
+      //    'Content-Type': 'application/json',
+      //  },
+
+      //  body: JSON.stringify({
+      //    data: {
+      //      email: userData.email,
+      //      full_name: userData.full_name,
+      //      revenue: userData.revenue,
+      //      website: userData.website,
+      //      duration: userData.duration,
+      //      file_name: userData.file_name,
+      //    },
+      //  }),
+      //});
+      //const data = await response.json();
+      //console.log('DATA:', data);
+      //console.log('DATA2:', baseUrl);
+      //    console.log(data.full_name);
+      //console.log(email);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const handleChange = (e) => {
+    setUserData(e.target.value);
+  };
+
   return (
     <>
       <div
         id="funding-form"
         className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8"
       >
-        <div className="w-full max-w-md space-y-8">
+        <div id="formDiv" className="w-full max-w-md space-y-8">
           <div>
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Establish an account
+              Get Started
             </h2>
           </div>
-          <form className="mt-8 space-y-6" action="#" method="POST">
+          <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
             <input type="hidden" name="remember" defaultValue="true" />
             <div className="-space-y-px rounded-md shadow-sm">
               <div>
                 <label htmlFor="email-address" className="sr-only">
-                  Email address
+                  Enter Email address
                 </label>
                 <input
                   id="email-address"
                   name="email"
                   type="email"
+                  value={userData.email}
                   autoComplete="email"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Enter your email address"
+                  onChange={handleChange}
                 />
               </div>
               <div>
-                <label htmlFor="password" className="sr-only">
-                  Name
+                <label htmlFor="name" className="sr-only">
+                  Enter Name
                 </label>
                 <input
                   id="name"
-                  name="name"
+                  name="full_name"
+                  value={userData.full_name}
                   type="text"
                   autoComplete="name"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Enter your Full Name"
+                  onChange={handleChange}
                 />
               </div>
               <div>
-                <label htmlFor="password" className="sr-only">
-                  Name
+                <label htmlFor="website" className="sr-only">
+                  Enter Website
                 </label>
                 <input
                   id="website"
                   name="website"
                   type="text"
+                  value={userData.website}
                   autoComplete="website"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Enter your website"
+                  onChange={handleChange}
                 />
               </div>
               <div>
-                <label htmlFor="password" className="sr-only">
-                  Name
+                <label htmlFor="revenue" className="sr-only">
+                  Enter Revenue
                 </label>
                 <input
                   id="revenue"
                   name="revenue"
                   type="text"
+                  value={userData.revenue}
                   autoComplete="revenue"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="What is your monthly revenue (In numbers)"
+                  onChange={handleChange}
                 />
               </div>
               <div>
-                <label htmlFor="password" className="sr-only">
-                  Name
+                <label htmlFor="duration" className="sr-only">
+                  Enter Duration
                 </label>
                 <input
                   id="month"
-                  name="month"
+                  name="duration"
                   type="number"
+                  value={userData.duration}
                   autoComplete="month"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="How long (In months)"
+                  onChange={handleChange}
                 />
               </div>
               <div>
+                <label htmlFor="file" className="sr-only">
+                  Upload File
+                </label>
                 <input
                   id="file"
-                  name="file-name"
+                  name="file_name"
                   type="file"
                   autoComplete="name"
+                  value={userData.file_name}
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Select a file"
+                  onChange={handleChange}
                 />
                 <label
                   htmlFor="file-upload"
@@ -119,6 +187,11 @@ export default function Funding() {
               </button>
             </div>
           </form>
+          <div>
+            <Link href="/solutions">
+              <a className="underline">Our Solutions</a>
+            </Link>
+          </div>{' '}
         </div>
       </div>
     </>
