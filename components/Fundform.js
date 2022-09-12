@@ -18,40 +18,54 @@ export default function Funding() {
     file_name: '',
   });
 
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setUserData({ ...userData, [name]: value });
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const baseUrl = `${process.env.NEXT_PUBLIC_STRAPI_BASE_URL}/api/prospects`;
-      //const response = await fetch(baseUrl, {
-      //  method: 'POST',
-
-      //  headers: {
-      //    'Content-Type': 'application/json',
-      //  },
-
-      //  body: JSON.stringify({
-      //    data: {
-      //      email: userData.email,
-      //      full_name: userData.full_name,
-      //      revenue: userData.revenue,
-      //      website: userData.website,
-      //      duration: userData.duration,
-      //      file_name: userData.file_name,
-      //    },
-      //  }),
-      //});
-      //const data = await response.json();
-      //console.log('DATA:', data);
-      //console.log('DATA2:', baseUrl);
-      //    console.log(data.full_name);
-      //console.log(email);
+      if (
+        userData.email &&
+        userData.full_name &&
+        userData.revenue &&
+        userData.website &&
+        userData.file_name
+      ) {
+        const response = await fetch(baseUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            data: {
+              email: userData.email,
+              full_name: userData.full_name,
+              revenue: userData.revenue,
+              website: userData.website,
+              duration: userData.duration,
+              file_name: userData.file_name,
+            },
+          }),
+        });
+        const data = await response.json();
+        setUserData({
+          email: '',
+          full_name: '',
+          revenue: '',
+          website: '',
+          duration: 0,
+          file_name: '',
+        });
+      } else {
+        console.log('field missing');
+      }
     } catch (error) {
       console.log(error);
     }
-  };
-
-  const handleChange = (e) => {
-    setUserData(e.target.value);
   };
 
   return (
@@ -63,7 +77,7 @@ export default function Funding() {
         <div id="formDiv" className="w-full max-w-md space-y-8">
           <div>
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Get Started
+              Signup for free Partners Account
             </h2>
           </div>
           <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
@@ -129,7 +143,7 @@ export default function Funding() {
                   autoComplete="revenue"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
-                  placeholder="What is your monthly revenue (In numbers)"
+                  placeholder="What is your monthly sale revenue (In numbers)"
                   onChange={handleChange}
                 />
               </div>
@@ -138,11 +152,11 @@ export default function Funding() {
                   Enter Duration
                 </label>
                 <input
-                  id="month"
+                  id="duration"
                   name="duration"
                   type="number"
                   value={userData.duration}
-                  autoComplete="month"
+                  autoComplete="duration"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="How long (In months)"
@@ -189,7 +203,7 @@ export default function Funding() {
           </form>
           <div>
             <Link href="/solutions">
-              <a className="underline">Our Solutions</a>
+              <a className="underline">Our Solution</a>
             </Link>
           </div>{' '}
         </div>
