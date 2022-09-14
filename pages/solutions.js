@@ -124,7 +124,11 @@ export default function Example() {
               </div>
             </div>
             <div className=" flex justify-center items-center rounded text-white bg-red-700 w-36 h-10">
-              <a href="https://calendly.com/forgedmart/30min" target="_blank">
+              <a
+                href="https://calendly.com/forgedmart/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Schedule a Demo
               </a>
             </div>
