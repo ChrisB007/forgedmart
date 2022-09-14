@@ -117,8 +117,8 @@ export default function Example() {
                   never too early to plan ahead.
                 </p>
                 <ul role="list" className="font-bold list-disc m-4">
-                  <li>We identify the right time for your exit strategy</li>
-                  <li>We assign dedicated Exit Strategy Advisor</li>
+                  <li>We identify the right time for your exit strategy.</li>
+                  <li>We assign dedicated Exit Strategy Advisor.</li>
                   <li>Exit via IPO, SPAC, Private sale.</li>
                 </ul>
               </div>
