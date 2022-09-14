@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         <title>ForgedMart</title>
         <meta
           name="description"
-          content="Helping eCommerce businesses attain Unicorn status. From growth funding to brand building strategies, brand marketing to investor relations strategies..."
+          content="ForgedMart - Helping eCommerce businesses attain Unicorn status. From growth funding to brand building strategies, brand marketing to investor relations strategies..."
         />
       </Head>
       <Nav />
