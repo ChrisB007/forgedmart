@@ -143,7 +143,7 @@ export default function Funding() {
                   autoComplete="revenue"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
-                  placeholder="What is your monthly sale revenue (In numbers)"
+                  placeholder="What is your monthly sales revenue (In numbers)"
                   onChange={handleChange}
                 />
               </div>
@@ -154,12 +154,12 @@ export default function Funding() {
                 <input
                   id="duration"
                   name="duration"
-                  type="number"
+                  type="text"
                   value={userData.duration}
                   autoComplete="duration"
                   required
                   className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
-                  placeholder="How long (In months)"
+                  placeholder="How long (Example: 3 months)"
                   onChange={handleChange}
                 />
               </div>
