@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
         />
         <meta
           name="keywords"
-          content="forgedmart, shopify, shopify stores, amazon fba program, shopify partners, funding,amazon fba business, business loans, shopify website, shopifyplus, amazon seller, amazon fba, big commerce, ecommerce"
+          content="forgedmart, shopify, shopify stores, brand your business, branding your company, brand companies, amazon fba program, shopify partners, funding,amazon fba business, business loans, shopify website, shopifyplus, amazon seller, amazon fba, big commerce, ecommerce"
         />
       </Head>
       <Nav />
