@@ -68,7 +68,7 @@ export default function Example() {
                   <p className="mt-8 text-base font-semibold text-white sm:mt-10">
                     Serving businesses built on
                   </p>
-                  <div className="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
+                  <div className="logo-list mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                     <div className="flex flex-wrap items-start justify-between">
                       <div className="flex justify-center px-1">
                         <img
@@ -89,6 +89,13 @@ export default function Example() {
                           className="h-9 sm:h-10"
                           src="/images/AWS.png"
                           alt="amazon"
+                        />
+                      </div>
+                      <div className="flex justify-center px-1">
+                        <img
+                          className="h-9 sm:h-10"
+                          src="/images/faire.png"
+                          alt="faire"
                         />
                       </div>
                     </div>

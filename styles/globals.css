@@ -14,3 +14,8 @@
 .hero-top {
   margin-top: 3rem !important;
 }
+
+.logo-list {
+  width: 97%;
+  max-width: unset !important;
+}
