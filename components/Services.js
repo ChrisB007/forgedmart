@@ -19,7 +19,7 @@ const transferFeatures = [
     id: 2,
     name: 'Branding & Marketing',
     description:
-      'Selling your own products with your company name and logo is a key factor when it comes to branding. If you are not currently selling your own brand product we work with an array of product designers and manufacturers that can help bring your ideas to life as well as a winning go-to-market strategy.',
+      'Selling your own products with your company name and logo is a key factor when it comes to branding. If you are not currently selling your own brand product we work with an array of product designers and manufacturers that can help bring your ideas to life as well as a winning go-to-market strategy. Product marketing and securing shelf spaces at retail chain stores can prove to be a daunting task for eCommerce brands. We help procure shelf space for your products with our retail partners.',
     icon: ScaleIcon,
   },
   {
