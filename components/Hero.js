@@ -70,28 +70,28 @@ export default function Example() {
                   </p>
                   <div className="logo-list mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                     <div className="flex flex-wrap items-start justify-between">
-                      <div className="flex justify-center px-1">
+                      <div className="flex justify-center px-1 mt-1">
                         <img
-                          className="h-9 sm:h-10"
+                          className="h-9 sm:h-10 "
                           src="/images/shopifyb.png"
                           alt="Shopify"
                         />
                       </div>
-                      <div className="flex justify-center px-1">
+                      <div className="flex justify-center px-1  mt-1">
                         <img
                           className="h-9 sm:h-10"
                           src="/images/bigc.png"
                           alt="BigCommerce"
                         />
                       </div>
-                      <div className="flex justify-center px-1">
+                      <div className="flex justify-center px-1 mt-1">
                         <img
                           className="h-9 sm:h-10"
                           src="/images/AWS.png"
                           alt="amazon"
                         />
                       </div>
-                      <div className="flex justify-center px-1">
+                      <div className="flex justify-center px-1 mt-1">
                         <img
                           className="h-9 sm:h-10"
                           src="/images/faire.png"
