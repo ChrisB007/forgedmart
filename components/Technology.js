@@ -36,7 +36,7 @@ export default function Tech() {
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover"
-            src="/images/techno.png"
+            src="/images/marketingassoc.jpg"
             alt=""
           />
           <div
