@@ -59,14 +59,14 @@ export default function Example() {
                     </a>
                   </Link>
                   <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-                    Helping eCommerce companies attain Unicorn status.
+                    Helping eCommerce attain Unicorn status.
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                     Not many businesses built on eCommerce platforms get to be
                     Billion dollar companies. Question is - Why not?
                   </p>
                   <p className="mt-8 text-base font-semibold text-white sm:mt-10">
-                    Serving businesses built on
+                    Growth and Exit strategies for business built on...
                   </p>
                   <div className="logo-list mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                     <div className="flex flex-wrap items-start justify-between">

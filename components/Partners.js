@@ -9,7 +9,7 @@ export default function Partners() {
           <div className="col-span-1 flex justify-center bg-white-50 py-8 px-8">
             <img
               className="max-h-12"
-              src="/images/clearone.jpeg"
+              src="/images/onramp_logo.png"
               alt="Clearco"
             />
           </div>

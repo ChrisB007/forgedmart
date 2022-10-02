@@ -1,9 +1,13 @@
 import {
   BoltIcon,
-  ChatBubbleBottomCenterTextIcon,
-  EnvelopeIcon,
+  FingerPrintIcon,
+  PlusCircleIcon,
   GlobeAltIcon,
   ScaleIcon,
+  CurrencyDollarIcon,
+  UserGroupIcon,
+  XMarkIcon,
+  MapPinIcon,
 } from '@heroicons/react/24/outline';
 import Funding from '../components/Fundform';
 
@@ -13,17 +17,24 @@ const transferFeatures = [
     name: 'Funding & Growth',
     description:
       'In order to facilitate growth, you need capital. This is optional but recommended if you are planning to scale your business but running low on funds or do not have enough capital after expenses are taken care of. We can provide funding and resources for you to grow faster.',
-    icon: GlobeAltIcon,
+    icon: PlusCircleIcon,
   },
   {
     id: 2,
     name: 'Branding & Marketing',
     description:
-      'Selling your own products with your company name and logo is a key factor when it comes to branding. If you are not currently selling your own brand product we work with an array of product designers and manufacturers that can help bring your ideas to life as well as a winning go-to-market strategy. Product marketing and securing shelf spaces at retail chain stores can prove to be a daunting task for eCommerce brands. We help procure shelf space for your products with our retail partners.',
-    icon: ScaleIcon,
+      'Selling your own products with your company name and logo is a key factor when it comes to branding. If you are not currently selling your own brand product we work with an array of product designers and manufacturers that can help bring your ideas to life as well as a winning go-to-market strategy.',
+    icon: GlobeAltIcon,
   },
   {
     id: 3,
+    name: 'Getting brands into Retail stores',
+    description:
+      'Our approach to growing brands at record speed is getting products into local retail stores. We have 115 retail stores across NYC tri-state area along with an additional 84 store locations in Massachusetts, New Hampshire, and Maine that we have solid partnership with - These stores host and sell products ranging from Wellness, Apparel, and Beauty to Kids, Organic, and Energy drinks. We try this approach first for brands to get sales going before launching web and/or social media campaigns.',
+    icon: MapPinIcon,
+  },
+  {
+    id: 4,
     name: 'Exit Strategy',
     description:
       'At this point, your company has a track record of successfully operating over some time, and you are now ready to reap the benefits of your hard work either to be acquired by a bigger company or make offerings to go public. Our advisors will come up with multiple strategic plans and options to help you succeed.',
@@ -36,28 +47,28 @@ const communicationFeatures = [
     name: 'Dedicated Team',
     description:
       'Your company will be assigned an Account Manager to oversee your growth along with dedicated experts in marketing and branding. Your Account Manager will put together a road map with an executable plan to succeed.',
-    icon: ChatBubbleBottomCenterTextIcon,
+    icon: UserGroupIcon,
   },
   {
     id: 2,
     name: 'Access to Funding',
     description:
       'Let\'s start by saying that this is not a loan. However, it is a "recommended" revenue-based financing that you can choose (if needed) to access. Your company will have revolving access to funds for you to grow faster after all the faster you grow, the sooner you attain unicorn status',
-    icon: EnvelopeIcon,
+    icon: CurrencyDollarIcon,
   },
   {
     id: 2,
     name: 'Dedicated Branding & Marketing team',
     description:
       'Our team will propose branding ideas, help improve your marketing performance on the web as well as parallel your social media effort so that you can acquire more customers and increase profitability',
-    icon: EnvelopeIcon,
+    icon: FingerPrintIcon,
   },
   {
     id: 2,
     name: 'Exit Strategy Advisor',
     description:
       'As exciting as it sounds to run your company forever, most entrepreneurs plan on retiring at some point and exiting the company. You need an expert to advise you on when is right to exit, how exit strategy helps your business valuation, types of exit strategies, which strategy is best for your company e.t.c.',
-    icon: EnvelopeIcon,
+    icon: XMarkIcon,
   },
 ];
 
