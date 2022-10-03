@@ -14,7 +14,7 @@ import Funding from '../components/Fundform';
 const transferFeatures = [
   {
     id: 1,
-    name: 'Funding & Growth',
+    name: 'Growth Funding',
     description:
       'In order to facilitate growth, you need capital. This is optional but recommended if you are planning to scale your business but running low on funds or do not have enough capital after expenses are taken care of. We can provide funding and resources for you to grow faster.',
     icon: PlusCircleIcon,
