@@ -9,7 +9,11 @@ export default function Partners() {
         </p>
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
           <div className="col-span-1 cursor flex justify-center bg-white-50 py-8 px-8">
-            <a href="https://www.onrampfunds.com" target="_blank">
+            <a
+              href="https://www.onrampfunds.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="max-h-12"
                 src="/images/onramp_logo.png"
@@ -18,12 +22,12 @@ export default function Partners() {
             </a>
           </div>
           <div className="col-span-1 cursor flex justify-center bg-white-50 py-8 px-8">
-            <a href="https://www.capchase.com" target="_blank">
+            <a href="https://www.capchase.com" target="_blank" rel="noreferrer">
               <img className="max-h-12" src="/images/capp.png" alt="Capchase" />
             </a>
           </div>
           <div className="col-span-1 cursor flex justify-center bg-white-50 py-8 px-8">
-            <a href="https://stripe.com" target="_blank">
+            <a href="https://stripe.com" target="_blank" rel="noreferrer">
               <img className="max-h-12" src="/images/stripe.png" alt="Stripe" />
             </a>
           </div>
