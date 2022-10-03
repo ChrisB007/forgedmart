@@ -5,7 +5,7 @@ export default function Partners() {
     <div className="bg-white">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <p className="text-center text-lg font-semibold text-white-600">
-          Lending Partners we are lucky to work with
+          Some of the Lending Partners we work with
         </p>
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
           <div className="col-span-1 cursor flex justify-center bg-white-50 py-8 px-8">
