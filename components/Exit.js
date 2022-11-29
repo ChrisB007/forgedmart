@@ -80,7 +80,7 @@ export default function Exit() {
               Looking to sell your brand?
             </h3>
             <p className="mt-1 text-sm text-gray-500">
-              We'll give you the best strategies for a successful exit.
+              We&apos;ll give you the best strategies for a successful exit.
             </p>
           </div>
           <div className="mt-5 space-y-6 md:col-span-2 md:mt-0">

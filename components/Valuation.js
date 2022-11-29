@@ -106,7 +106,7 @@ export default function ValuationComponent() {
         <div className="md:grid md:grid-cols-3 md:gap-6">
           <div className="md:col-span-1">
             <h3 className="text-lg font-medium leading-6 text-gray-900">
-              Let's find out what your business is worth
+              Let&apos;s find out what your business is worth
             </h3>
             <p className="mt-1 text-sm text-gray-500">
               Please provide us some information about your business to help us

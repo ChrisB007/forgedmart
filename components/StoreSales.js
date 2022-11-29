@@ -82,10 +82,10 @@ export default function Exit() {
         <div className="md:grid md:grid-cols-3 md:gap-6">
           <div className="md:col-span-1">
             <h3 className="text-lg font-medium leading-6 text-gray-900">
-              Let's get your products on the shelves
+              Let&apos;s get your products on the shelves
             </h3>
             <p className="mt-1 text-sm text-gray-500">
-              We have a growing number of retail stores we've established
+              We have a growing number of retail stores we&apos;ve established
               partnerships with, and can introduce your products to. These
               stores host and sell products ranging from Wellness, Apparel, and
               Beauty to Kids, Organic, and Energy drinks. Use this form to let

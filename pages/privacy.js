@@ -15,15 +15,17 @@ export default function Privacy() {
             <div className="">
               <div className="prose prose-lg prose-indigo mt-6 text-gray-500 lg:mt-0">
                 <p>
-                  This Privacy Policy (“Policy”) of ForgedMart ("ForgedMart"
-                  “Company”, “we”, “us”, and/or “our”) describes in greater
+                  This Privacy Policy (&quot;Policy&quot;) of ForgedMart
+                  (&quot;ForgedMart&quot; &quot;Company&quot;, &quot;we&quot;,
+                  &quot;us&quot;, and/or &quot;our&quot;) describes in greater
                   detail our privacy practices and we collect and maintain
                   certain information collected about you. This policy applies
                   to information (including personally identifiable information
-                  (“PII”)) we collect when you register, apply for financial
-                  products, access our website, products, and services, or when
-                  you otherwise interact with us (collectively, the “Services”).
-                  As used in this Privacy Policy, the term “Site” includes all
+                  (&quot;PII&quot;)) we collect when you register, apply for
+                  financial products, access our website, products, and
+                  services, or when you otherwise interact with us
+                  (collectively, the &quot;Services&quot;). As used in this
+                  Privacy Policy, the term &quot;Site&quot; includes all
                   websites and all devices or applications operated by
                   ForgedMart that collect PII from you, and their respective
                   pages, forms, equivalents, mirrors, replacements, and backups
@@ -32,38 +34,40 @@ export default function Privacy() {
                   Services is also subject to our Terms of Service and
                   additional product specific agreements related to specific
                   financing activities mutually entered into by you and
-                  ForgedMart. As used in this Privacy Policy, the terms “you”
-                  and “your” refer to you, the user of ForgedMart&apos; website,
-                  Services, and products, as the party agreeing to the terms of
-                  this Privacy Policy. By visiting our site and accessing
-                  information regarding our Services, you hereby agree to this
-                  Privacy Policy. We respect the privacy of businesses and their
-                  owners or principals and are committed to protecting the
-                  information that you provide, directly in connection with your
-                  use of our Site or indirectly through third-parties, to obtain
-                  Services from ForgedMart. We may amend this Privacy Policy
-                  from time to time by posting a revised, dated version on the
-                  Site. In your use of the Site and Services, we collect either
-                  directly or indirectly, the following types of information:
-                  Information regarding a business (“Business Information”)
-                  Information about the business&apos;s owners and principals
-                  (“User Information”) General information that is automatically
-                  collected as you interact with our Site and Services (“General
-                  Information”) In order to provide Services, we collect
-                  Business Information from users, including, but not limited to
-                  business name, address, phone, email, age, size, revenue,
-                  business type, incorporation date, bank and financial account
-                  information, sales channel information (online shopping carts,
-                  marketplaces and other sales channels), sales enablement
-                  channel information pertaining to inventory, advertising,
-                  fulfillment, shipping, and payments, payment processing
-                  procedures, accounting information, and other vendor service
-                  information. We also review personally identifiable User
-                  Information, PII, that consists of but is not limited to the
-                  owners&apos; or principals&apos; name(s), mailing address(es),
-                  email address(es), telephone number(s), date(s) of birth, and
-                  social security number(s). Sales channel information sources,
-                  sales enablement channel information sources, fulfillment
+                  ForgedMart. As used in this Privacy Policy, the terms
+                  &quot;you&quot; and &quot;your&quot; refer to you, the user of
+                  ForgedMart&apos; website, Services, and products, as the party
+                  agreeing to the terms of this Privacy Policy. By visiting our
+                  site and accessing information regarding our Services, you
+                  hereby agree to this Privacy Policy. We respect the privacy of
+                  businesses and their owners or principals and are committed to
+                  protecting the information that you provide, directly in
+                  connection with your use of our Site or indirectly through
+                  third-parties, to obtain Services from ForgedMart. We may
+                  amend this Privacy Policy from time to time by posting a
+                  revised, dated version on the Site. In your use of the Site
+                  and Services, we collect either directly or indirectly, the
+                  following types of information: Information regarding a
+                  business (&quot;Business Information&quot;) Information about
+                  the business&apos;s owners and principals (&quot;User
+                  Information&quot;) General information that is automatically
+                  collected as you interact with our Site and Services
+                  (&quot;General Information&quot;) In order to provide
+                  Services, we collect Business Information from users,
+                  including, but not limited to business name, address, phone,
+                  email, age, size, revenue, business type, incorporation date,
+                  bank and financial account information, sales channel
+                  information (online shopping carts, marketplaces and other
+                  sales channels), sales enablement channel information
+                  pertaining to inventory, advertising, fulfillment, shipping,
+                  and payments, payment processing procedures, accounting
+                  information, and other vendor service information. We also
+                  review personally identifiable User Information, PII, that
+                  consists of but is not limited to the owners&apos; or
+                  principals&apos; name(s), mailing address(es), email
+                  address(es), telephone number(s), date(s) of birth, and social
+                  security number(s). Sales channel information sources, sales
+                  enablement channel information sources, fulfillment
                   information sources, shipping information sources, and payment
                   information sources may collect downstream customer data
                   (customer data about your customers), ForgedMart does not
@@ -206,26 +210,26 @@ export default function Privacy() {
                   you can still use the Site, but your ability to use some
                   features of the Site may be limited. Most mobile phones allow
                   you to control privacy settings, including location-based
-                  services by accessing the device's setting's menu. If you have
-                  questions about the privacy settings on your mobile device,
-                  you should contact your mobile service carrier. ForgedMart,
-                  its affiliates or its business partners may contact you to
-                  offer you products and services that may be of interest to
-                  you. Out of respect for your privacy, you may choose to stop
-                  receiving our newsletter or marketing emails, telephone
-                  solicitations or other forms of contact from us, our
+                  services by accessing the device&apos;s setting&apos;s menu.
+                  If you have questions about the privacy settings on your
+                  mobile device, you should contact your mobile service carrier.
+                  ForgedMart, its affiliates or its business partners may
+                  contact you to offer you products and services that may be of
+                  interest to you. Out of respect for your privacy, you may
+                  choose to stop receiving our newsletter or marketing emails,
+                  telephone solicitations or other forms of contact from us, our
                   affiliates, and our trusted business partners by following the
                   unsubscribe instructions included in these emails or by
                   contacting us at support@onrampfunds.com. Opting out of
                   newsletter or marketing emails or notifications will not stop
                   any non-marketing emails or notifications related to the
-                  Site's functionality or the products or services available
-                  through the Site. We may partner with third parties to display
-                  advertisements on the Site and manage advertisements on other
-                  websites or mobile applications. Third parties with whom we
-                  partner may use cookies or Web beacons to collect
-                  non-personally identifiable information about your activities
-                  on this and other Web sites to provide you targeted
+                  Site&apos;s functionality or the products or services
+                  available through the Site. We may partner with third parties
+                  to display advertisements on the Site and manage
+                  advertisements on other websites or mobile applications. Third
+                  parties with whom we partner may use cookies or Web beacons to
+                  collect non-personally identifiable information about your
+                  activities on this and other Web sites to provide you targeted
                   advertising based on your interests and browsing activity.
                   Various browsers may offer their own tools to manage cookies
                   and tracking. Do-Not-Track is an optional browser setting that
@@ -242,10 +246,10 @@ export default function Privacy() {
                   applications, including the information and content contained
                   on the website or application. If you submit information to a
                   third-party website or application, your information is
-                  governed by the third party's privacy policy. We encourage you
-                  to carefully read the privacy policy of any website or
-                  application you visit, access or use. We protect User
-                  Information and Business Information by using reasonable
+                  governed by the third party&apos;s privacy policy. We
+                  encourage you to carefully read the privacy policy of any
+                  website or application you visit, access or use. We protect
+                  User Information and Business Information by using reasonable
                   physical, electronic and procedural safeguards in compliance
                   with applicable federal and state regulations. We use computer
                   safeguards such as firewalls and data encryption using
@@ -261,10 +265,10 @@ export default function Privacy() {
                   can contact us for more information. We may display
                   testimonials of satisfied customers of our Services on the
                   Site in addition to other endorsements. With your consent we
-                  may post your testimonial along with the business's and
-                  business owner's or principal's name and picture. If you wish
-                  to update or delete your testimonial, you can contact us at
-                  support@onrampfunds.com. Our Site and Services are not
+                  may post your testimonial along with the business&apos;s and
+                  business owner&apos;s or principal&apos;s name and picture. If
+                  you wish to update or delete your testimonial, you can contact
+                  us at support@onrampfunds.com. Our Site and Services are not
                   intended for use by individual consumers or children under the
                   age of 18 years old. We do not knowingly solicit data online
                   from or market only to children under 18 years of age. If we

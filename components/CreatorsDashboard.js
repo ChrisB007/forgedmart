@@ -178,7 +178,7 @@ export default function CreatorsDash() {
                   text-white shadow-sm hover:bg-slate-700 focus:outline-none
                   focus:ring-2 focus:ring-slate-500 focus:ring-offset-2"
                     >
-                      Let's Go Viral
+                      Let&apos;s Go Viral
                     </a>
                   </Link>
                 </div>

@@ -32,21 +32,6 @@ export default function FirstPageModal() {
     const notify = () => toast(`You are signed in as ${role}`);
     notify();
 
-    //    if (loading) {
-    //      return (
-    //        <div>
-    //          <PulseLoader
-    //            color={color}
-    //            loading={loading}
-    //            size={27}
-    //            aria-label="Loading Spinner"
-    //            data-testid="loader"
-    //            speedMultiplier=0.6
-    //          />
-    //        </div>
-    //      );
-    //    }
-
     if (role === 'Brand') {
       dispatch(createUserStatus({ userName, email, role, image }));
     } else if (role === 'Agency') {
@@ -102,9 +87,9 @@ export default function FirstPageModal() {
                       <div className="mt-2">
                         <p className="text-sm text-gray-500">
                           Please select how you would like to use our platform.
-                          Select "Agency" if you are managing multiple client
-                          accounts or choose "Brand" to set up an account for a
-                          single brand. Subsequently, choose "Ambassador" to use
+                          Select Agency if you are managing multiple client
+                          accounts or choose Brand to set up an account for a
+                          single brand. Subsequently, choose Ambassador to use
                           the platform to grow your channels.
                         </p>
                       </div>

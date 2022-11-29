@@ -17,8 +17,8 @@ export default function Pricing() {
               Tools built for Marketing Agencies
             </h2>
             <p className="mt-4 text-xl text-gray-600">
-              If you're not satisfied, contact us within the first 14 days and
-              we'll send you a full refund.
+              If you&apos;re not satisfied, contact us within the first 14 days
+              and we&apos;ll send you a full refund.
             </p>
           </div>
         </div>
