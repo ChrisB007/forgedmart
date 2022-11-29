@@ -24,7 +24,7 @@ export const getUserStatus = createAsyncThunk(
         Authorization:
           'bearer' + process.env.NEXT_PUBLIC_FORGEDMART_STRAPI_API_TOKEN,
       });
-      console.log(userRes);
+
       //return userRes.data;
     } catch (error) {
       console.log(error);

@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { useSession } from 'next-auth/react';
 import { toast } from 'react-toastify';
 import { useDispatch, useSelector } from 'react-redux';
-import { createUserStatus } from '../slices/userSlice/userStatus';
 import PulseLoader from 'react-spinners/PulseLoader';
 
 export default function FirstPageModal() {
