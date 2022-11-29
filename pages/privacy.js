@@ -33,7 +33,7 @@ export default function Privacy() {
                   additional product specific agreements related to specific
                   financing activities mutually entered into by you and
                   ForgedMart. As used in this Privacy Policy, the terms “you”
-                  and “your” refer to you, the user of ForgedMart’ website,
+                  and “your” refer to you, the user of ForgedMart&apos; website,
                   Services, and products, as the party agreeing to the terms of
                   this Privacy Policy. By visiting our site and accessing
                   information regarding our Services, you hereby agree to this
@@ -46,8 +46,8 @@ export default function Privacy() {
                   Site. In your use of the Site and Services, we collect either
                   directly or indirectly, the following types of information:
                   Information regarding a business (“Business Information”)
-                  Information about the business’s owners and principals (“User
-                  Information”) General information that is automatically
+                  Information about the business&apos;s owners and principals
+                  (“User Information”) General information that is automatically
                   collected as you interact with our Site and Services (“General
                   Information”) In order to provide Services, we collect
                   Business Information from users, including, but not limited to
@@ -60,10 +60,10 @@ export default function Privacy() {
                   procedures, accounting information, and other vendor service
                   information. We also review personally identifiable User
                   Information, PII, that consists of but is not limited to the
-                  owners’ or principals’ name(s), mailing address(es), email
-                  address(es), telephone number(s), date(s) of birth, and social
-                  security number(s). Sales channel information sources, sales
-                  enablement channel information sources, fulfillment
+                  owners&apos; or principals&apos; name(s), mailing address(es),
+                  email address(es), telephone number(s), date(s) of birth, and
+                  social security number(s). Sales channel information sources,
+                  sales enablement channel information sources, fulfillment
                   information sources, shipping information sources, and payment
                   information sources may collect downstream customer data
                   (customer data about your customers), ForgedMart does not
@@ -165,34 +165,34 @@ export default function Privacy() {
                   our business partners, including for jointly offered products
                   and services, under agreements which restrict our business
                   partners use of the information and require business partners
-                  to follow similar policies to protect your data’s privacy and
-                  security and comply with the same laws and regulations that we
-                  follow. We may also use, sell, license or distribute General
-                  Information (i.e., non-personally identifiable information) or
-                  personally identifiable User Information that has been
-                  anonymized so that the information does not identify a
-                  specific user without restriction, including, but not limited
-                  to for producing data analytics and reports for business
-                  partners or others. We may notify you via email or a prominent
-                  notice on the Site of any change in ownership of User
-                  Information and Business Information (including as a result of
-                  a merger, acquisition, or sale of all or substantially all of
-                  its assets), changes to this Privacy Policy, as well as
-                  changes to any choices you may have regarding your personally
-                  identifiable information. You may review and modify your
-                  Business Information and User Information by logging into your
-                  account and updating your customer profile. This section of
-                  the Site is password protected and offers two-factor
-                  authentication to better protect your information. As a
-                  customer, you can update your password, address, and phone
-                  number at any time on the site. We will retain your
-                  information for as long as your account is active or as long
-                  as reasonably useful for commercial purposes. Upon
-                  application, we will need to retain certain information as
-                  necessary to comply with applicable laws regarding
-                  recordkeeping, reporting, and audits. Upon request, we can
-                  inform you of whether we maintain any of your PII. We will
-                  retain your information for as long as the information is
+                  to follow similar policies to protect your data&apos;s privacy
+                  and security and comply with the same laws and regulations
+                  that we follow. We may also use, sell, license or distribute
+                  General Information (i.e., non-personally identifiable
+                  information) or personally identifiable User Information that
+                  has been anonymized so that the information does not identify
+                  a specific user without restriction, including, but not
+                  limited to for producing data analytics and reports for
+                  business partners or others. We may notify you via email or a
+                  prominent notice on the Site of any change in ownership of
+                  User Information and Business Information (including as a
+                  result of a merger, acquisition, or sale of all or
+                  substantially all of its assets), changes to this Privacy
+                  Policy, as well as changes to any choices you may have
+                  regarding your personally identifiable information. You may
+                  review and modify your Business Information and User
+                  Information by logging into your account and updating your
+                  customer profile. This section of the Site is password
+                  protected and offers two-factor authentication to better
+                  protect your information. As a customer, you can update your
+                  password, address, and phone number at any time on the site.
+                  We will retain your information for as long as your account is
+                  active or as long as reasonably useful for commercial
+                  purposes. Upon application, we will need to retain certain
+                  information as necessary to comply with applicable laws
+                  regarding recordkeeping, reporting, and audits. Upon request,
+                  we can inform you of whether we maintain any of your PII. We
+                  will retain your information for as long as the information is
                   needed to provide you Site services. If you wish to request
                   that we no longer use your information to provide you Site
                   services, you may contact us support@onrampfunds.com. We will
@@ -268,18 +268,18 @@ export default function Privacy() {
                   intended for use by individual consumers or children under the
                   age of 18 years old. We do not knowingly solicit data online
                   from or market only to children under 18 years of age. If we
-                  knowingly receive a child’s PII, we will immediately delete it
-                  from our system. Our Site and Services are intended for
-                  businesses and their owners’ and principals’ only. Onramp
-                  Funds reserves the right to change this policy from time to
-                  time to accommodate changes in technologies, laws, and user
-                  needs. In the event we modify this Privacy Policy, we will
-                  communicate these changes to you by posting them on this
-                  website. We encourage you to periodically review this page for
-                  the latest information on our privacy practices. For any
-                  questions or concerns regarding this Privacy Policy or the
-                  practices of the Site(s) or Service(s), please contact us at
-                  info@publictrades.com.
+                  knowingly receive a child&apos;s PII, we will immediately
+                  delete it from our system. Our Site and Services are intended
+                  for businesses and their owners&apos; and principals&apos;
+                  only. Onramp Funds reserves the right to change this policy
+                  from time to time to accommodate changes in technologies,
+                  laws, and user needs. In the event we modify this Privacy
+                  Policy, we will communicate these changes to you by posting
+                  them on this website. We encourage you to periodically review
+                  this page for the latest information on our privacy practices.
+                  For any questions or concerns regarding this Privacy Policy or
+                  the practices of the Site(s) or Service(s), please contact us
+                  at info@publictrades.com.
                 </p>
               </div>
             </div>

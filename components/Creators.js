@@ -92,8 +92,8 @@ export default function Creators() {
           <div className="mt-8 lg:mt-0">
             <div className="mx-auto max-w-prose text-base lg:max-w-none">
               <p className="text-lg text-gray-500">
-                Growing your channels organically shouldn't put you between a
-                rock and a hard place. Our platform provide tools that you can
+                Growing your channels organically shouldn&apos;t put you between
+                a rock and a hard place. Our platform provide tools that you can
                 use to grow and monetize your social media channels as Brand
                 Ambassadors.
               </p>

@@ -26,7 +26,7 @@ export default function Listen() {
             <div className="md:grid md:grid-cols-3 md:gap-6">
               <div className="md:col-span-1">
                 <h3 className="text-lg font-medium leading-6 text-gray-900">
-                  Social Marketing at it's best
+                  Social Marketing at it&apos;s best
                 </h3>
                 <BrandMessage />
                 {/*<InfluencerMessage />*/}
