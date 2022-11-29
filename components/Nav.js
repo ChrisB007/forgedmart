@@ -60,7 +60,7 @@ const Nav = () => {
           </div>
           <div onClick={!session ? signIn : signOut} className="hidden md:flex">
             <p className="inline-flex cursor-pointer items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700">
-              {session ? `Sign Out` : 'Login'}
+              {session ? `Sign Out` : 'Go to Dashboard'}
             </p>
           </div>
         </nav>
@@ -115,7 +115,7 @@ const Nav = () => {
                 className="hidden md:flex"
               >
                 <p className="inline-flex cursor-pointer items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700">
-                  {session ? `Sign Out` : 'Login'}
+                  {session ? `Sign Out` : 'Go to Dashboard'}
                 </p>
               </div>
             </div>

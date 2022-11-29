@@ -29,17 +29,17 @@ export default function UserDashboard() {
   let router = useRouter();
   const role = true;
 
-  //  const handleClick = () => {
-  //    if (role === 'Brand') {
-  //      router.push('/dashboard/ambassadors');
-  //    } else if (role === 'Agency') {
-  //      console.log('This iis agency Link');
-  //    } else if (role === 'Ambassador') {
-  //      console.log('This is Ambassador link');
-  //    } else {
-  //      console.log('You have no role');
-  //    }
-  //  };
+  const handleClick = () => {
+    if (role === 'Brand') {
+      router.push('/dashboard/ambassadors');
+    } else if (role === 'Agency') {
+      console.log('This iis agency Link');
+    } else if (role === 'Ambassador') {
+      console.log('This is Ambassador link');
+    } else {
+      console.log('You have no role');
+    }
+  };
 
   return (
     <>
