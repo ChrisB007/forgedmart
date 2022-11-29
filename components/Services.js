@@ -3,7 +3,7 @@ import {
   FingerPrintIcon,
   PlusCircleIcon,
   GlobeAltIcon,
-  ScaleIcon,
+  BuildingStorefrontIcon,
   CurrencyDollarIcon,
   UserGroupIcon,
   XMarkIcon,
@@ -31,13 +31,13 @@ const transferFeatures = [
     name: 'Getting brands into Retail stores',
     description:
       'Our approach to growing brands at record speed is getting products into local retail stores. We have 115 retail stores across NYC tri-state area along with an additional 84 store locations in Massachusetts, New Hampshire, and Maine that we have solid partnership with - These stores host and sell products ranging from Wellness, Apparel, and Beauty to Kids, Organic, and Energy drinks. We try this approach first for brands to get sales going before launching web and/or social media campaigns.',
-    icon: MapPinIcon,
+    icon: BuildingStorefrontIcon,
   },
   {
     id: 4,
-    name: 'Exit Strategy',
+    name: 'Vetted Brand Ambassadors',
     description:
-      'At this point, your company has a track record of successfully operating over some time, and you are now ready to reap the benefits of your hard work either to be acquired by a bigger company or make offerings to go public. Our advisors will come up with multiple strategic plans and options to help you succeed.',
+      'Collaborate with Creators and Influencers whose channels align with your brand and products. Work directly with ambassadors ...',
     icon: BoltIcon,
   },
 ];
@@ -112,7 +112,7 @@ export default function Services() {
 
         <div className="relative">
           <h2 className="text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-            Providing robust strategies you need to Scale and Exit
+            Providing robust platform that help your brand Scale and Exit
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-center text-xl text-gray-500">
             From growth funding to brand building strategies, brand marketing to
@@ -127,8 +127,11 @@ export default function Services() {
         >
           <div className="relative">
             <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-              How it works
+              For Agencies & Brands
             </h3>
+            <h4 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+              How it works
+            </h4>
             <p className="mt-3 text-lg text-gray-500">
               The way we work with every company is tailored to their specific
               needs. However, it falls within these categories

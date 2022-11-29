@@ -59,7 +59,7 @@ export default function Example() {
                     </a>
                   </Link>
                   <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-                    Helping eCommerce attain Unicorn status.
+                    Helping eCommerce Brands attain Unicorn status.
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                     Not many businesses built on eCommerce platforms get to be

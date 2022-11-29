@@ -90,7 +90,7 @@ export default function Tech() {
                   href={link.href}
                   className="text-base font-medium text-red-700 hover:text-red-600"
                 >
-                  Get started<span aria-hidden="true"> &rarr;</span>
+                  Free Trial<span aria-hidden="true"> &rarr;</span>
                 </a>
               </div>
             </div>

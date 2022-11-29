@@ -2,28 +2,36 @@ import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
+import { useSession, signIn, signOut } from 'next-auth/react';
 
 const navigation = [
   { name: 'Solutions', href: '/solutions' },
-  { name: 'How it works', href: '/#how-it-works' },
-  //  { name: 'Clients', href: '#' },
+  { name: 'Brands & Agencies', href: '/#how-it-works' },
+  //  { name: 'Clients', href: 'https://clients.forgedmart.com' },
+  { name: 'Ambassadors', href: '/#creators' },
   { name: 'Partners', href: '/partners' },
   { name: 'Contact', href: '/contact' },
 ];
 
 const Nav = () => {
+  const { data: session } = useSession();
+
   return (
-    <div className="relative pt-4 pb-16 sm:pb-24 h-0.5 bg-black">
+    <div className="relative pt-4 pb-16 sm:pb-24 h-0.5 sidebar-bg">
       <Popover>
         <nav
-          className="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6"
+          className={
+            session
+              ? 'relative flex max-w-7xl items-center justify-between px-4 sm:px-6mx-5'
+              : 'relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6'
+          }
           aria-label="Global"
         >
           <div className="flex flex-1 items-center">
             <div className="flex w-full items-center justify-between md:w-auto">
               <Link href="/">
                 <a>
-                  <span className="sr-only">Workflow</span>
+                  <span className="sr-only">Forgedmart</span>
                   <img
                     className="h-8 w-auto sm:h-10"
                     src="/images/Mart.png"
@@ -43,19 +51,17 @@ const Nav = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="font-medium text-white hover:text-gray-300"
+                  className="font-medium text-black hover:text-gray-300"
                 >
                   {item.name}
                 </a>
               ))}
             </div>
           </div>
-          <div className="hidden md:flex">
-            <Link href="/login">
-              <a className="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700">
-                Partners Login
-              </a>
-            </Link>
+          <div onClick={!session ? signIn : signOut} className="hidden md:flex">
+            <p className="inline-flex cursor-pointer items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700">
+              {session ? `Sign Out` : 'Login'}
+            </p>
           </div>
         </nav>
 
@@ -104,11 +110,14 @@ const Nav = () => {
                   </a>
                 ))}
               </div>
-              <Link href="/login">
-                <a className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-red-600 hover:bg-gray-100">
-                  Partners Login
-                </a>
-              </Link>
+              <div
+                onClick={!session ? signIn : signOut}
+                className="hidden md:flex"
+              >
+                <p className="inline-flex cursor-pointer items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700">
+                  {session ? `Sign Out` : 'Login'}
+                </p>
+              </div>
             </div>
           </Popover.Panel>
         </Transition>
