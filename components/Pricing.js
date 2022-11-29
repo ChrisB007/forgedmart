@@ -40,7 +40,7 @@ export default function Pricing() {
                 <div className="mt-8">
                   <div className="flex items-center">
                     <h4 className="flex-shrink-0 bg-white pr-4 text-base font-semibold text-indigo-600">
-                      What's included
+                      What&apos;s included
                     </h4>
                     <div className="flex-1 border-t-2 border-gray-200" />
                   </div>

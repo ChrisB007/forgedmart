@@ -90,7 +90,9 @@ export default function Footer() {
           >
             &copy;{' '}
             {`${new Date().getFullYear()} PublicTrades, LLC. All rights reserved. `}
-            <a href="/privacy">Privacy Policy</a>
+            <Link href="/privacy">
+              <a>Privacy Policy</a>
+            </Link>
           </p>
         </div>
       </div>
