@@ -27,6 +27,7 @@ export default function UserDashboard() {
   const { data: session } = useSession();
   const { user } = useSelector((store) => store.userStatus);
   let router = useRouter();
+  const role = true;
 
   //  const handleClick = () => {
   //    if (role === 'Brand') {

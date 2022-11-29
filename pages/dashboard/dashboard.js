@@ -13,6 +13,7 @@ function classNames(...classes) {
 export default function Dashboard({ user }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const { data: session } = useSession();
+  const role = true;
 
   return (
     <>
